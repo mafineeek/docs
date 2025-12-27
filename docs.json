@@ -26,7 +26,8 @@
         "pages": [
           "configuration/tickets",
           "configuration/suggestions",
-          "configuration/tags"
+          "configuration/tags",
+          "configuration/join-roles"
         ]
       }
     ],
