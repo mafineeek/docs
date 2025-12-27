@@ -8,18 +8,39 @@ icon: "robot"
 
 Autoresponders allow MurFFy to automatically reply to messages that contain specific keywords or phrases.
 
+To get started, select **Autoresponders** from the sidebar on the left in the dashboard and click **Create Autoresponder**.
+
+![Create Autoresponder](https://cdn.murffy.xyz/docs/brave_1ZtJiTu9bD.png)
+
 ## Creating an Autoresponder
 
-1. Go to the **Dashboard** and select your server.
-2. Navigate to **Join Roles** -> **Auto Messages**.
-3. Click on **Autoresponders**.
-4. Click **Create New Autoresponder**.
+When creating an autoresponder, you need to configure the **Trigger** (the phrase that activates it) and the **Response** (what the bot will say).
 
-### Settings
+### Options
 
-- **Trigger**: The phrase or keyword that triggers the response.
-- **Response**: The message MurFFy will send back.
-- **Match Type**: 
-  - *Exact Match*: The message must be exactly the trigger phrase.
-  - *Contains*: The message just needs to contain the trigger phrase.
-  - *Wildcard*: Use wildcards for more complex matching.
+You can customize how the autoresponder behaves with the following options:
+
+- **Reply in Embed**: If enabled, the bot will send the response inside an embed instead of a plain text message.
+- **Search in text**: Acts as a wildcard. The bot will search for the trigger phrase anywhere in the message.
+- **Is Reply**: If enabled, the bot will use Discord's "Reply" feature to reference the user's message. Otherwise, it will send a standard message.
+
+<Tip>
+  **Search in text example**
+  
+  If your trigger is `welcome` and "Search in text" is enabled, the bot will also respond to messages like `welcome 123` or `hello and welcome`.
+</Tip>
+
+### Ignored Contexts
+
+You can prevent the autoresponder from triggering in specific situations using **Ignored Contexts**.
+
+- **Ignored Roles**: Users with these roles will not trigger the autoresponder.
+- **Ignored Channels**: Messages sent in these channels will not ignore the autoresponder.
+
+![Ignored Contexts](https://cdn.murffy.xyz/docs/brave_Zo3nGOeoS6.png)
+
+## Managing Autoresponders
+
+Once you have added autoresponders, you can see them in a list. From here, you can **Edit** or **Delete** them as needed.
+
+![Manage Autoresponders](https://cdn.murffy.xyz/docs/brave_Js3GDItzFm.png)
