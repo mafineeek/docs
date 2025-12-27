@@ -10,7 +10,7 @@
     "light": "#8b5cf6",
     "dark": "#0a0a0c"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://cdn.murffy.xyz/brand/logo.png",
   "navigation": {
     "groups": [
       {
