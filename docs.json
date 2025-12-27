@@ -46,8 +46,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://cdn.murffy.xyz/brand/logotype.png",
+    "dark": "https://cdn.murffy.xyz/brand/logotype.png"
   },
   "navbar": {
     "links": [
