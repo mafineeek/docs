@@ -1,13 +1,62 @@
 ---
 title: 'Tickets'
 icon: 'ticket'
-description: 'Configure the ticketing system'
+description: 'Configure and manage support tickets'
 ---
 
 # Tickets
 
-Manage support requests efficiently with our ticketing system.
+Manage support requests efficiently with our flexible ticketing system.
 
-## Configuration
+## Creating a Panel
 
-Learn how to set up ticket panels, categories, and permissions.
+To start, click the **Create Panel** button in the tickets dashboard.
+
+![Create Panel Button](https://cdn.murffy.xyz/docs/brave_1aUzWDyAhJ.png)
+
+### Basic Setup
+
+Once created, you'll need to configure the basics:
+- **Panel Title**: The name of your ticket panel.
+- **Panel Channel**: The channel where the "Open Ticket" message and button will be sent.
+
+![Basic Setup](https://cdn.murffy.xyz/docs/brave_uVgJmXm2gu.png)
+
+## Configuration Options
+
+You can customize how tickets behave using the following options:
+
+![Configuration Options](https://cdn.murffy.xyz/docs/brave_fWMMQhW2ON.png)
+
+- **Panel Message**: The content of the embed message that users will see.
+- **Channel Naming Style**:
+    - `ticket-number`: e.g., `ticket-001`
+    - `ticket-username`: e.g., `ticket-john`
+- **Thread Mode**: If enabled, tickets will be created as private threads instead of full channels.
+- **Use Dropdown**: Users select the ticket type from a dropdown menu instead of clicking buttons.
+- **Limit Open Tickets**: Restrict the number of open tickets a single user can have at once.
+- **Buttons per row**: If not using a dropdown, select how many buttons appear per row (2-5).
+
+## Ticket Types & Categories
+
+Click **Add Option** to define specific ticket types (e.g., Support, Bug Report).
+
+![Button Configuration](https://cdn.murffy.xyz/docs/brave_xjtugEZKOD.png)
+
+For each option, you can configure:
+- **Label, Emoji, Color**: The appearance of the button or dropdown item.
+- **Target Category**: The category where new tickets are created.
+- **Archive Category**: The category where closed tickets are moved.
+- **Support Role**: Roles that are automatically tagged or added to the ticket.
+- **Open/Closed Prefix**: Customize channel names (e.g., `bug-001`).
+- **Welcome Message**: The initial message sent inside the ticket (supports vars like `{user}`).
+
+## Transcripts & Deployment
+
+Finally, ensure you don't lose history:
+- **Auto create transcript**: Automatically generates and saves a transcript when a ticket is closed.
+- **Transcript Channel**: The channel where transcripts are sent.
+
+Once your configuration is complete, click **Send Panel** in the top right corner to deploy it to your server!
+
+![Send Panel](https://cdn.murffy.xyz/docs/brave_9F1NMbdKN4.png)
