@@ -24,6 +24,15 @@
       {
         "group": "Server configuration",
         "pages": [
+          {
+            "group": "Auto messages",
+            "icon": "message",
+            "pages": [
+              "configuration/auto-messages/welcome",
+              "configuration/auto-messages/goodbye",
+              "configuration/auto-messages/autoresponders"
+            ]
+          },
           "configuration/tickets",
           "configuration/suggestions",
           "configuration/tags",
