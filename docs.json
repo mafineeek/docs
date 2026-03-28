@@ -36,7 +36,8 @@
           "configuration/tickets",
           "configuration/suggestions",
           "configuration/tags",
-          "configuration/join-roles"
+          "configuration/join-roles",
+          "configuration/action-logs"
         ]
       }
     ],
